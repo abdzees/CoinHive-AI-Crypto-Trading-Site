@@ -6,28 +6,28 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const faqs = [
   {
-    question: 'How does CoinHive's AI trading actually work?',
-    answer: 'CoinHive uses a combination of machine learning algorithms, natural language processing, and technical analysis to identify trading opportunities. Our AI analyzes market data, news sentiment, social media trends, and blockchain metrics to predict price movements and execute trades according to your risk preferences.'
+    question: "How does CoinHive's AI trading actually work?",
+    answer: "CoinHive uses a combination of machine learning algorithms, natural language processing, and technical analysis to identify trading opportunities. Our AI analyzes market data, news sentiment, social media trends, and blockchain metrics to predict price movements and execute trades according to your risk preferences."
   },
   {
-    question: 'Is my cryptocurrency safe with CoinHive?',
-    answer: 'Absolutely. CoinHive never takes custody of your funds. We use secure API connections to your wallets that only have trading permissions but cannot withdraw funds. All data is encrypted end-to-end, and we employ multiple security protocols to protect your assets.'
+    question: "Is my cryptocurrency safe with CoinHive?",
+    answer: "Absolutely. CoinHive never takes custody of your funds. We use secure API connections to your wallets that only have trading permissions but cannot withdraw funds. All data is encrypted end-to-end, and we employ multiple security protocols to protect your assets."
   },
   {
-    question: 'What kind of returns can I expect?',
-    answer: 'While past performance is not indicative of future results, our users typically see 15-40% improved returns compared to their previous strategies. Results vary based on market conditions, risk tolerance settings, and the cryptocurrencies you choose to trade.'
+    question: "What kind of returns can I expect?",
+    answer: "While past performance is not indicative of future results, our users typically see 15-40% improved returns compared to their previous strategies. Results vary based on market conditions, risk tolerance settings, and the cryptocurrencies you choose to trade."
   },
   {
-    question: 'How do I get started with CoinHive?',
-    answer: 'Getting started is simple. Sign up for an account, connect your wallet using our secure connection process, configure your trading preferences, and the AI will begin analyzing the market and suggesting or executing trades based on your chosen plan.'
+    question: "How do I get started with CoinHive?",
+    answer: "Getting started is simple. Sign up for an account, connect your wallet using our secure connection process, configure your trading preferences, and the AI will begin analyzing the market and suggesting or executing trades based on your chosen plan."
   },
   {
-    question: 'Can I customize the trading strategies?',
-    answer: 'Yes. Pro and Enterprise users can customize trading strategies based on their preferences, including risk tolerance, preferred trading pairs, technical indicators, and more. Free users have access to basic strategy customization.'
+    question: "Can I customize the trading strategies?",
+    answer: "Yes. Pro and Enterprise users can customize trading strategies based on their preferences, including risk tolerance, preferred trading pairs, technical indicators, and more. Free users have access to basic strategy customization."
   },
   {
-    question: 'What exchanges does CoinHive support?',
-    answer: 'CoinHive integrates with all major cryptocurrency exchanges including Binance, Coinbase Pro, Kraken, FTX, Huobi, and KuCoin, among others. We're constantly adding support for more exchanges.'
+    question: "What exchanges does CoinHive support?",
+    answer: "CoinHive integrates with all major cryptocurrency exchanges including Binance, Coinbase Pro, Kraken, FTX, Huobi, and KuCoin, among others. We're constantly adding support for more exchanges."
   }
 ];
 

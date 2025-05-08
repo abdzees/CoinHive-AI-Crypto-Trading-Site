@@ -9,7 +9,7 @@ import { ArrowLeft } from 'lucide-react';
 const blogPosts = [
   {
     id: 1,
-    title: 'The Future of AI in Cryptocurrency Trading',
+    title: "The Future of AI in Cryptocurrency Trading",
     content: `
       <p>Artificial intelligence has rapidly evolved from a promising technology to an essential component of modern cryptocurrency trading strategies. As we look toward the future, the integration of AI in trading platforms like CoinHive is poised to revolutionize how individuals and institutions approach digital asset markets.</p>
       
@@ -38,16 +38,16 @@ const blogPosts = [
       <h2>Conclusion</h2>
       <p>The future of AI in cryptocurrency trading isn't just about automation—it's about augmentation. By combining the computational power of artificial intelligence with human intuition and creativity, traders can achieve results that neither could accomplish alone. As this technology continues to evolve, platforms like CoinHive will play a crucial role in democratizing access to these powerful tools, leveling the playing field between institutional and individual traders.</p>
     `,
-    date: 'May 2, 2025',
-    author: 'Sarah Johnson',
-    authorTitle: 'Chief AI Officer',
-    authorImage: '/placeholder.svg',
-    image: '/placeholder.svg',
-    category: 'Technology',
+    date: "May 2, 2025",
+    author: "Sarah Johnson",
+    authorTitle: "Chief AI Officer",
+    authorImage: "/placeholder.svg",
+    image: "/placeholder.svg",
+    category: "Technology",
   },
   {
     id: 2,
-    title: 'Understanding Market Sentiment Analysis for Crypto Traders',
+    title: "Understanding Market Sentiment Analysis for Crypto Traders",
     content: `
       <p>Market sentiment analysis has become an indispensable tool for cryptocurrency traders seeking to gain an edge in volatile markets. By leveraging natural language processing and machine learning algorithms, traders can now quantify and interpret the collective emotions and opinions of market participants.</p>
       
@@ -95,16 +95,16 @@ const blogPosts = [
       <p>Market sentiment analysis represents a powerful extension of the cryptocurrency trader's toolkit, offering insights that traditional technical and fundamental analysis cannot provide. By incorporating sentiment data into trading decisions, traders can gain a more complete understanding of market dynamics and potentially identify profitable opportunities before they become apparent through price action alone.</p>
       <p>At CoinHive, we continue to refine our sentiment analysis capabilities, ensuring our users have access to the most accurate and timely sentiment data available in the cryptocurrency space. As this technology evolves, we expect sentiment analysis to become an increasingly essential component of successful trading strategies.</p>
     `,
-    date: 'April 28, 2025',
-    author: 'Michael Chen',
-    authorTitle: 'Data Science Lead',
-    authorImage: '/placeholder.svg',
-    image: '/placeholder.svg',
-    category: 'Trading',
+    date: "April 28, 2025",
+    author: "Michael Chen",
+    authorTitle: "Data Science Lead",
+    authorImage: "/placeholder.svg",
+    image: "/placeholder.svg",
+    category: "Trading",
   },
   {
     id: 3,
-    title: '5 Risk Management Strategies Every Crypto Trader Should Know',
+    title: "5 Risk Management Strategies Every Crypto Trader Should Know",
     content: `
       <p>In the volatile world of cryptocurrency trading, proper risk management can be the difference between sustainable profits and devastating losses. While the potential for high returns attracts many traders to digital assets, those who succeed long-term are invariably those who have mastered the art of risk management.</p>
       
@@ -159,16 +159,16 @@ const blogPosts = [
       <p>In cryptocurrency markets, where volatility and uncertainty are constants, robust risk management isn't optional—it's essential. By implementing these five strategies and leveraging CoinHive's AI-powered risk management tools, traders can protect their capital during downturns while still capturing upside during favorable market conditions.</p>
       <p>Remember, successful trading isn't just about maximizing returns—it's about maximizing risk-adjusted returns over the long term. By prioritizing risk management, you position yourself to be among the minority of traders who achieve sustainable success in cryptocurrency markets.</p>
     `,
-    date: 'April 15, 2025',
-    author: 'David Rodriguez',
-    authorTitle: 'Risk Management Specialist',
-    authorImage: '/placeholder.svg',
-    image: '/placeholder.svg',
-    category: 'Strategy',
+    date: "April 15, 2025",
+    author: "David Rodriguez",
+    authorTitle: "Risk Management Specialist",
+    authorImage: "/placeholder.svg",
+    image: "/placeholder.svg",
+    category: "Strategy",
   },
   {
     id: 4,
-    title: 'How CoinHive's AI Predicted the Recent Bitcoin Rally',
+    title: "How CoinHive's AI Predicted the Recent Bitcoin Rally",
     content: `
       <p>In the volatile world of cryptocurrency, predicting major market moves can seem like an impossible task. However, CoinHive's advanced AI system demonstrated its exceptional predictive capabilities by identifying signals of Bitcoin's recent price surge weeks before conventional analyses caught on. This case study examines how our algorithms detected and interpreted the early indicators of this significant market movement.</p>
       
@@ -234,12 +234,12 @@ const blogPosts = [
       <p>While no prediction system is infallible, CoinHive's AI has consistently demonstrated its ability to identify high-probability trading opportunities before they become apparent to the broader market. The recent Bitcoin rally serves as a compelling example of how advanced machine learning algorithms, when applied to diverse data sources, can provide cryptocurrency traders with a significant edge in anticipating major market movements.</p>
       <p>As we continue to refine our models and expand our data sources, we remain committed to providing our users with the most sophisticated AI trading assistant in the cryptocurrency space.</p>
     `,
-    date: 'April 3, 2025',
-    author: 'Emily Zhang',
-    authorTitle: 'Lead Market Analyst',
-    authorImage: '/placeholder.svg',
-    image: '/placeholder.svg',
-    category: 'Case Study',
+    date: "April 3, 2025",
+    author: "Emily Zhang",
+    authorTitle: "Lead Market Analyst",
+    authorImage: "/placeholder.svg",
+    image: "/placeholder.svg",
+    category: "Case Study",
   },
 ];
 
