@@ -14,7 +14,7 @@ const DashboardMockup: React.FC = () => {
       
       <div className="flex">
         {/* Sidebar */}
-        <div className="w-48 p-4 md:block bg-zinc-700">
+        <div className="w-48 p-4 md:block bg-zinc-700 hidden">
           <div className="space-y-4">
             <div className="p-2 rounded-md bg-zinc-800">Dashboard</div>
             <div className="p-2 text-gray-400">Portfolio</div>
