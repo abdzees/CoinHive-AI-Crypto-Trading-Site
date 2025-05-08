@@ -58,7 +58,7 @@ export const Navigation: React.FC = () => {
         <div className="p-6 h-full flex flex-col">
           <div className="flex justify-between items-center">
             <span className="text-xl font-medium">
-              <img src="/lovable-uploads/67ab30e7-9fcd-49a6-992c-10be2f0c89c4.png" alt="CoinHive Logo" className="h-6" />
+              <img alt="CoinHive Logo" src="/lovable-uploads/66e1e136-bb73-4fea-80df-07f024b4d787.png" className="h-8 w-15 object-contain" />
             </span>
             <button onClick={() => setIsOpen(false)} aria-label="Close menu">
               <X size={24} />
@@ -66,7 +66,7 @@ export const Navigation: React.FC = () => {
           </div>
           
           <div className="mt-8 flex flex-col space-y-6">
-            {navLinks.map(link => <a key={link.name} href={link.href} className="text-lg opacity-80 hover:opacity-100" onClick={() => setIsOpen(false)}>
+            {navLinks.map(link => <a key={link.name} href={link.href} onClick={() => setIsOpen(false)} className="text-lg opacity-80 hover:opacity-100 px-[10px]">
                 {link.name}
               </a>)}
             <a href="#contact" className="neumorphic-button text-center mt-8 bg-gold text-background" onClick={() => setIsOpen(false)}>
