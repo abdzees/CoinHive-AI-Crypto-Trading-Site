@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
           <div className="text-center md:text-left">
             <h3 className="text-lg font-medium mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link to="/" className="hover:text-gold transition-colors">Home</Link></li>
+              <li><Link to="/#home" className="hover:text-gold transition-colors">Home</Link></li>
               <li><a href="#features" className="hover:text-gold transition-colors">Features</a></li>
               <li><a href="#how-it-works" className="hover:text-gold transition-colors">How it Works</a></li>
               <li><a href="#pricing" className="hover:text-gold transition-colors">Pricing</a></li>
