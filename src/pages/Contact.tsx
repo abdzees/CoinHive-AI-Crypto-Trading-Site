@@ -110,7 +110,7 @@ const Contact: React.FC = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50 placeholder-white"
+                    className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50 placeholder-black"
                     placeholder="John Doe"
                   />
                 </div>
@@ -126,7 +126,7 @@ const Contact: React.FC = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50"
+                    className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50 placeholder-black"
                     placeholder="john@example.com"
                   />
                 </div>
@@ -141,7 +141,7 @@ const Contact: React.FC = () => {
                     value={formData.subject}
                     onChange={handleChange}
                     required
-                    className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50"
+                    className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50 placeholder-black"
                   >
                     <option value="">Select a subject</option>
                     <option value="general">General Inquiry</option>
@@ -162,7 +162,7 @@ const Contact: React.FC = () => {
                     onChange={handleChange}
                     required
                     rows={5}
-                    className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50"
+                    className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50 placeholder-black"
                     placeholder="How can we help you?"
                   ></textarea>
                 </div>
@@ -181,7 +181,7 @@ const Contact: React.FC = () => {
       </section>
       
       {/* Map Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-20">
         <div className="container mx-auto px-4">
           <ScrollReveal className="text-center mb-10">
             <h2 className="text-3xl md:text-4xl mb-6">Our Location</h2>
