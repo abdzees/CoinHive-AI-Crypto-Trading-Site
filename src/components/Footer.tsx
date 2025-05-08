@@ -10,7 +10,7 @@ export const Footer: React.FC = () => {
           <div className="text-center md:text-left">
             <Link to="/" className="inline-block">
               <img 
-                src="/lovable-uploads/cc8a7744-f292-4e7c-9897-ec4966f21ffc.png" 
+                src="/lovable-uploads/67ab30e7-9fcd-49a6-992c-10be2f0c89c4.png" 
                 alt="CoinHive Logo" 
                 className="h-8 mx-auto md:mx-0" 
               />
@@ -35,7 +35,6 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li><Link to="/about" className="hover:text-gold transition-colors">About Us</Link></li>
               <li><Link to="/contact" className="hover:text-gold transition-colors">Contact</Link></li>
-              <li><Link to="/blog" className="hover:text-gold transition-colors">Blog</Link></li>
               <li><a href="#" className="hover:text-gold transition-colors">Privacy Policy</a></li>
             </ul>
           </div>

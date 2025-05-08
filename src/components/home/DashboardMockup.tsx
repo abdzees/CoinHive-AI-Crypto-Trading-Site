@@ -7,7 +7,7 @@ const DashboardMockup: React.FC = () => {
       <div className="bg-gray-800 p-4 flex justify-between items-center">
         <div className="flex items-center">
           <img 
-            src="/lovable-uploads/cc8a7744-f292-4e7c-9897-ec4966f21ffc.png" 
+            src="/lovable-uploads/67ab30e7-9fcd-49a6-992c-10be2f0c89c4.png" 
             alt="CoinHive Logo" 
             className="h-6" 
           />

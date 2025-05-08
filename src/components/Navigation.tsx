@@ -36,7 +36,7 @@ export const Navigation: React.FC = () => {
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link to="/" className="flex items-center">
           <img 
-            src="/lovable-uploads/cc8a7744-f292-4e7c-9897-ec4966f21ffc.png" 
+            src="/lovable-uploads/67ab30e7-9fcd-49a6-992c-10be2f0c89c4.png" 
             alt="CoinHive Logo" 
             className="h-8" 
           />
@@ -79,7 +79,7 @@ export const Navigation: React.FC = () => {
           <div className="flex justify-between items-center">
             <span className="text-xl font-medium">
               <img 
-                src="/lovable-uploads/cc8a7744-f292-4e7c-9897-ec4966f21ffc.png" 
+                src="/lovable-uploads/67ab30e7-9fcd-49a6-992c-10be2f0c89c4.png" 
                 alt="CoinHive Logo" 
                 className="h-6" 
               />
