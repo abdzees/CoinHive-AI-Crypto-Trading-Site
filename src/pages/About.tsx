@@ -67,7 +67,7 @@ const About: React.FC = () => {
                 <Users className="text-gold" size={24} />
               </div>
               <h3 className="text-xl mb-3">Accessibility</h3>
-              <p className="opacity-80">
+              <p className="opacity-80 text-center">
                 We believe advanced trading technology should be accessible to everyone, not just financial institutions and the tech elite.
               </p>
             </ScrollReveal>
@@ -77,7 +77,7 @@ const About: React.FC = () => {
                 <TrendingUp className="text-gold" size={24} />
               </div>
               <h3 className="text-xl mb-3">Innovation</h3>
-              <p className="opacity-80">
+              <p className="opacity-80 text-center">
                 We continuously push the boundaries of what's possible in AI and cryptocurrency trading to keep our users ahead of the curve.
               </p>
             </ScrollReveal>
@@ -87,7 +87,7 @@ const About: React.FC = () => {
                 <ChartLine className="text-gold" size={24} />
               </div>
               <h3 className="text-xl mb-3">Transparency</h3>
-              <p className="opacity-80">
+              <p className="opacity-80 text-center">
                 We maintain complete transparency in our operations, algorithms, and results, building trust through honesty and open communication.
               </p>
             </ScrollReveal>
@@ -113,9 +113,7 @@ const About: React.FC = () => {
                   </div>
                   <h3 className="text-xl mb-1">Abdullah Zeeshan</h3>
                   <p className="opacity-70 mb-3 mx-auto text-center">CEO & Co-founder</p>
-                  <p className="text-sm opacity-80 mx-auto text-center">
-                    Former AI Research Lead at Google with 10+ years in cryptocurrency markets.
-                  </p>
+                  
                 </div>
               </ScrollReveal>)}
           </div>
