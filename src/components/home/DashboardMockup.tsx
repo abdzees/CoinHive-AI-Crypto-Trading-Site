@@ -6,8 +6,11 @@ const DashboardMockup: React.FC = () => {
     <div className="bg-gray-900 rounded-xl text-white overflow-hidden shadow-2xl">
       <div className="bg-gray-800 p-4 flex justify-between items-center">
         <div className="flex items-center">
-          <span className="text-gold font-medium mr-1">Coin</span>
-          <span className="font-medium">Hive</span>
+          <img 
+            src="/lovable-uploads/cc8a7744-f292-4e7c-9897-ec4966f21ffc.png" 
+            alt="CoinHive Logo" 
+            className="h-6" 
+          />
         </div>
         <div className="flex items-center space-x-4">
           <div className="h-8 w-8 rounded-full bg-gray-700 flex items-center justify-center">

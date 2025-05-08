@@ -16,17 +16,19 @@ export const HeroSection: React.FC = () => {
             maximizing profits while you focus on what matters most.
           </p>
           <div className="flex justify-center gap-4">
-            <a href="#pricing" className="neumorphic-button">
+            <a href="#pricing" className="neumorphic-button bg-gold text-background shadow-[0_0_15px_rgba(212,175,55,0.4)] hover:shadow-[0_0_30px_rgba(212,175,55,0.6)]">
               Get Started
             </a>
-            <a href="#how-it-works" className="neumorphic-button">
+            <a href="#how-it-works" className="neumorphic-button shadow-[0_0_15px_rgba(212,175,55,0.2)] hover:shadow-[0_0_25px_rgba(212,175,55,0.4)]">
               Learn More
             </a>
           </div>
         </ScrollReveal>
         
         <ScrollReveal className="mt-16 max-w-5xl mx-auto" delay={300}>
-          <DashboardMockup />
+          <div className="shadow-[0_0_30px_rgba(212,175,55,0.2)] hover:shadow-[0_0_40px_rgba(212,175,55,0.3)] transition-all duration-500 rounded-xl">
+            <DashboardMockup />
+          </div>
         </ScrollReveal>
       </div>
     </section>

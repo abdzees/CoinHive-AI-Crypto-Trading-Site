@@ -34,8 +34,12 @@ export const Navigation: React.FC = () => {
       )}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <Link to="/" className="text-2xl font-medium tracking-tight flex items-center">
-          <span className="text-gold">Coin</span>Hive
+        <Link to="/" className="flex items-center">
+          <img 
+            src="/lovable-uploads/cc8a7744-f292-4e7c-9897-ec4966f21ffc.png" 
+            alt="CoinHive Logo" 
+            className="h-8" 
+          />
         </Link>
         
         {/* Desktop Navigation */}
@@ -49,7 +53,7 @@ export const Navigation: React.FC = () => {
               {link.name}
             </a>
           ))}
-          <a href="#contact" className="neumorphic-button">
+          <a href="#contact" className="neumorphic-button bg-gold text-background">
             Get Started
           </a>
         </div>
@@ -74,7 +78,11 @@ export const Navigation: React.FC = () => {
         <div className="p-6 h-full flex flex-col">
           <div className="flex justify-between items-center">
             <span className="text-xl font-medium">
-              <span className="text-gold">Coin</span>Hive
+              <img 
+                src="/lovable-uploads/cc8a7744-f292-4e7c-9897-ec4966f21ffc.png" 
+                alt="CoinHive Logo" 
+                className="h-6" 
+              />
             </span>
             <button onClick={() => setIsOpen(false)} aria-label="Close menu">
               <X size={24} />
@@ -94,7 +102,7 @@ export const Navigation: React.FC = () => {
             ))}
             <a 
               href="#contact" 
-              className="neumorphic-button text-center mt-8"
+              className="neumorphic-button text-center mt-8 bg-gold text-background"
               onClick={() => setIsOpen(false)}
             >
               Get Started
