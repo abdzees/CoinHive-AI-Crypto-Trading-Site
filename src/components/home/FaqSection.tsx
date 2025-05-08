@@ -26,7 +26,7 @@ export const FaqSection: React.FC = () => {
   const toggleFaq = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
-  return <section id="faq" className="py-20 bg-secondary/20 my-[10px]">
+  return <section id="faq" className="py-20 my-[10px] bg-inherit">
       <div className="container mx-auto px-4">
         <ScrollReveal>
           <SectionHeading title="Frequently Asked Questions" subtitle="Everything you need to know about CoinHive and how it can transform your crypto trading." centered />
