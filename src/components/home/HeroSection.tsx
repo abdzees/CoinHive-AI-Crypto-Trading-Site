@@ -8,10 +8,10 @@ export const HeroSection: React.FC = () => {
     <section id="home" className="pt-32 pb-20 overflow-hidden">
       <div className="container mx-auto px-4">
         <ScrollReveal className="text-center max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl mb-6 mx-auto text-center">
             AI-Powered Crypto Trading on <span className="text-gold">Autopilot</span>
           </h1>
-          <p className="text-xl opacity-80 mb-8 max-w-2x2 mx-auto">
+          <p className="text-xl opacity-80 mb-8 max-w-2x2 mx-auto text-center">
             CoinHive leverages advanced AI algorithms to automate your cryptocurrency trading, 
             maximizing profits while you focus on what matters most.
           </p>
