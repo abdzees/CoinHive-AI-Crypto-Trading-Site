@@ -42,7 +42,7 @@ const About: React.FC = () => {
             </ScrollReveal>
             
             <ScrollReveal delay={200}>
-              <h2 className="text-3xl md:text-4xl mb-6">Our Story</h2>
+              <h2 className="text-3xl md:text-4xl mb-6 mx-auto text-center">Our Story</h2>
               <p className="mb-4 opacity-80">
                 CoinHive was born from a simple observation: while institutional investors were leveraging sophisticated algorithms to dominate cryptocurrency markets, individual traders were left behind with basic tools and strategies.
               </p>
@@ -58,7 +58,7 @@ const About: React.FC = () => {
       </section>
       
       {/* Values Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-20">
         <div className="container mx-auto px-4">
           <ScrollReveal className="text-center max-w-2xl mx-auto mb-12">
             <h2 className="text-3xl md:text-4xl mb-4">Our Core Values</h2>
@@ -68,7 +68,7 @@ const About: React.FC = () => {
           </ScrollReveal>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <ScrollReveal delay={100} className="bg-white p-8 rounded-lg shadow-sm">
+            <ScrollReveal delay={100} className="glassmorphic p-6 h-full flex flex-col items-center feature-card hover:shadow-[0_0_20px_rgba(212,175,55,0.3)] transition-all duration-300 hover:scale-105">
               <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center mb-6">
                 <Users className="text-gold" size={24} />
               </div>
@@ -78,7 +78,7 @@ const About: React.FC = () => {
               </p>
             </ScrollReveal>
             
-            <ScrollReveal delay={200} className="bg-white p-8 rounded-lg shadow-sm">
+            <ScrollReveal delay={200} className="glassmorphic p-6 h-full flex flex-col items-center feature-card hover:shadow-[0_0_20px_rgba(212,175,55,0.3)] transition-all duration-300 hover:scale-105">
               <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center mb-6">
                 <TrendingUp className="text-gold" size={24} />
               </div>
@@ -88,7 +88,7 @@ const About: React.FC = () => {
               </p>
             </ScrollReveal>
             
-            <ScrollReveal delay={300} className="bg-white p-8 rounded-lg shadow-sm">
+            <ScrollReveal delay={300} className="glassmorphic p-6 h-full flex flex-col items-center feature-card hover:shadow-[0_0_20px_rgba(212,175,55,0.3)] transition-all duration-300 hover:scale-105">
               <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center mb-6">
                 <ChartLine className="text-gold" size={24} />
               </div>
