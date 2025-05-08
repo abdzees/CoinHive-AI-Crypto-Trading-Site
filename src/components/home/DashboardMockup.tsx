@@ -7,7 +7,7 @@ const DashboardMockup: React.FC = () => {
         </div>
         <div className="flex items-center space-x-4">
           <div className="h-8 w-8 rounded-full bg-gray-700 flex items-center justify-center">
-            <span className="text-xs">JD</span>
+            <span className="text-xs">AZ</span>
           </div>
         </div>
       </div>
