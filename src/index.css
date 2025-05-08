@@ -99,6 +99,6 @@
   }
 
   .custom-select-placeholder-black option:first-child {
-    color: #0f0f0f; /* Or any other white color value */
+    color: #0f0f0f !important;
   }
 }
