@@ -74,7 +74,7 @@ const Contact: React.FC = () => {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-xl mb-2">Office</h3>
-                  <p className="opacity-80">123 Innovation Drive, San Francisco, CA 94107</p>
+                  <p className="opacity-80">123 Innovation Drive, Ingolstadt, DE 88888</p>
                 </div>
                 
                 <div>
@@ -150,7 +150,7 @@ const Contact: React.FC = () => {
             <div className="rounded-xl overflow-hidden shadow-lg h-96 bg-gray-200">
               {/* Placeholder for map */}
               <div className="w-full h-full flex items-center justify-center">
-                <span className="text-lg opacity-70">Interactive Map Will Be Displayed Here</span>
+                <span className="text-lg opacity-70 text-zinc-900">Interactive Map Will Be Displayed Here</span>
               </div>
             </div>
           </ScrollReveal>
