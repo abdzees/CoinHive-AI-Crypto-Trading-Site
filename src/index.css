@@ -92,4 +92,9 @@
   .reveal-on-scroll.revealed {
     @apply opacity-100 translate-y-0;
   }
+
+  .placeholder-white::placeholder {
+    color: #fff; /* Or any other white color value like white, rgba(255, 255, 255, 0.8), etc. */
+    opacity: 1; /* Ensure the placeholder isn't faded by default */
+  }
 }
