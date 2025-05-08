@@ -34,7 +34,7 @@ export const Navigation: React.FC = () => {
   return <nav className={cn("fixed top-0 left-0 right-0 z-50 py-4 transition-all duration-300", scrolled ? "bg-background/70 backdrop-blur-lg shadow-sm" : "")}>
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link to="/" className="flex items-center">
-          <img alt="CoinHive Logo" className="h-8 object-fill" src="/lovable-uploads/bc0f99f6-4a97-4f87-97dc-538c03f56923.png" />
+          <img alt="CoinHive Logo" src="/lovable-uploads/16935a0d-7c9b-472d-9ac2-14c879349b47.png" className="h-16 w-40 object-contain" />
         </Link>
         
         {/* Desktop Navigation */}
