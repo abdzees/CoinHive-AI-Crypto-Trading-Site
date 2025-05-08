@@ -1,16 +1,9 @@
-
 import React from 'react';
-
 const DashboardMockup: React.FC = () => {
-  return (
-    <div className="bg-gray-900 rounded-xl text-white overflow-hidden shadow-2xl">
+  return <div className="bg-gray-900 rounded-xl text-white overflow-hidden shadow-2xl">
       <div className="bg-gray-800 p-4 flex justify-between items-center">
         <div className="flex items-center">
-          <img 
-            src="/lovable-uploads/67ab30e7-9fcd-49a6-992c-10be2f0c89c4.png" 
-            alt="CoinHive Logo" 
-            className="h-6" 
-          />
+          <img alt="CoinHive Logo" className="h-6" src="/lovable-uploads/e4daafd0-2705-4fe1-9a04-8796e6598c1c.png" />
         </div>
         <div className="flex items-center space-x-4">
           <div className="h-8 w-8 rounded-full bg-gray-700 flex items-center justify-center">
@@ -68,13 +61,9 @@ const DashboardMockup: React.FC = () => {
             <div className="h-40 flex items-end">
               {/* Simplified chart representation */}
               <div className="flex-1 flex items-end space-x-1">
-                {[30, 45, 25, 60, 35, 50, 70, 55, 45, 60, 75, 65, 85, 90, 80].map((height, i) => (
-                  <div 
-                    key={i} 
-                    style={{ height: `${height}%` }} 
-                    className="bg-gradient-to-t from-blue-600 to-blue-400 w-full rounded-t-sm"
-                  ></div>
-                ))}
+                {[30, 45, 25, 60, 35, 50, 70, 55, 45, 60, 75, 65, 85, 90, 80].map((height, i) => <div key={i} style={{
+                height: `${height}%`
+              }} className="bg-gradient-to-t from-blue-600 to-blue-400 w-full rounded-t-sm"></div>)}
               </div>
             </div>
             <div className="flex justify-between mt-2 text-xs text-gray-400">
@@ -117,8 +106,6 @@ const DashboardMockup: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default DashboardMockup;
