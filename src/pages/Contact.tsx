@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
         <div className="container mx-auto px-4">
           <ScrollReveal className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl mb-6">Contact Us</h1>
-            <p className="text-xl opacity-80">
+            <p className="text-xl opacity-80 mx-auto text-center">
               Have questions about CoinHive? Our team is here to help you.
             </p>
           </ScrollReveal>
