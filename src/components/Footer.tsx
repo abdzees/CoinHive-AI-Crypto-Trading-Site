@@ -14,17 +14,17 @@ export const Footer: React.FC = () => {
           </div>
           
           <div className="text-center md:text-left">
-            <h3 className="text-lg font-medium mb-4 text-left">Quick Links</h3>
+            <h3 className="text-lg font-medium mb-4 md:text-center text-left">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link to="/#home" className="hover:text-gold transition-colors">Home</Link></li>
-              <li><Link to="/#features" className="hover:text-gold transition-colors">Features</Link></li>
+              <li className=""><Link to="/#home" className="hover:text-gold transition-colors">Home</Link></li>
+              <li className=""><Link to="/#features" className="hover:text-gold transition-colors">Features</Link></li>
               <li><Link to="/#how-it-works" className="hover:text-gold transition-colors">How it Works</Link></li>
               <li><Link to="/#pricing" className="hover:text-gold transition-colors">Pricing</Link></li>
             </ul>
           </div>
           
           <div className="text-center md:text-left rounded-none">
-            <h3 className="text-lg font-medium mb-4 text-left">Pages</h3>
+            <h3 className="text-lg font-medium mb-4 md:text-center text-left">Pages</h3>
             <ul className="space-y-2">
               <li><Link to="/about" className="hover:text-gold transition-colors">About Us</Link></li>
               <li><Link to="/contact" className="hover:text-gold transition-colors">Contact</Link></li>
@@ -33,7 +33,7 @@ export const Footer: React.FC = () => {
           </div>
           
           <div className="text-center md:text-left">
-            <h3 className="text-lg font-medium mb-4 text-left">Connect With Us</h3>
+            <h3 className="text-lg font-medium mb-4 md:text-center text-left">Connect With Us</h3>
             <p className="mb-4">Stay updated with our latest news and updates.</p>
             <div className="flex justify-center md:justify-start space-x-4">
               <a href="https://www.linkedin.com/in/abdullah-zeeshan-6386ba186/" className="hover:text-gold transition-colors">Twitter</a>
