@@ -98,7 +98,7 @@
     opacity: 1; /* Ensure the placeholder isn't faded by default */
   }
 
-  .custom-select-placeholder-black option::placeholder {
+  .custom-select-placeholder-black {
     color: #0f0f0f !important;
   }
 }
