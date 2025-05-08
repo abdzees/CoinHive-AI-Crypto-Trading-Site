@@ -45,7 +45,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply tracking-tight font-light text-left;
+    @apply tracking-tight font-light;
   }
 
   p, span, a, li {
