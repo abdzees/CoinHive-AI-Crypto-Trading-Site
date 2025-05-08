@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
           </div>
           
           <div className="text-center md:text-left">
-            <h3 className="text-lg font-medium mb-4 md:text-center text-left">Quick Links</h3>
+            <h3 className="text-lg font-medium mb-4 text-center md:text-left">Quick Links</h3>
             <ul className="space-y-2">
               <li className=""><Link to="/#home" className="hover:text-gold transition-colors">Home</Link></li>
               <li className=""><Link to="/#features" className="hover:text-gold transition-colors">Features</Link></li>
@@ -33,7 +33,7 @@ export const Footer: React.FC = () => {
           </div>
           
           <div className="text-center md:text-left">
-            <h3 className="text-lg font-medium mb-4 md:text-center text-left">Connect With Us</h3>
+            <h3 className="text-lg font-medium mb-4 text-center md:text-left">Connect With Us</h3>
             <p className="mb-4">Stay updated with our latest news and updates.</p>
             <div className="flex justify-center md:justify-start space-x-4">
               <a href="https://www.linkedin.com/in/abdullah-zeeshan-6386ba186/" className="hover:text-gold transition-colors">Twitter</a>
