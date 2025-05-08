@@ -36,7 +36,7 @@ const About: React.FC = () => {
             </ScrollReveal>
             
             <ScrollReveal delay={200}>
-              <h2 className="text-3xl md:text-4xl mb-6 mx-auto text-center">Our Story</h2>
+              <h2 className="text-3xl md:text-4xl mb-6 mx-auto text-left">Our Story</h2>
               <p className="mb-4 opacity-80">
                 CoinHive was born from a simple observation: while institutional investors were leveraging sophisticated algorithms to dominate cryptocurrency markets, individual traders were left behind with basic tools and strategies.
               </p>
