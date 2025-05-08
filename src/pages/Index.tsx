@@ -1,12 +1,33 @@
-// Update this page (the content is just a fallback if you fail to update the page)
 
-const Index = () => {
+import React, { useEffect } from 'react';
+import Navigation from '@/components/Navigation';
+import Footer from '@/components/Footer';
+import HeroSection from '@/components/home/HeroSection';
+import FeaturedSection from '@/components/home/FeaturedSection';
+import TestimonialsSection from '@/components/home/TestimonialsSection';
+import HowItWorksSection from '@/components/home/HowItWorksSection';
+import FeaturesSection from '@/components/home/FeaturesSection';
+import MissionSection from '@/components/home/MissionSection';
+import PricingSection from '@/components/home/PricingSection';
+import FaqSection from '@/components/home/FaqSection';
+
+const Index: React.FC = () => {
+  useEffect(() => {
+    document.title = 'CoinHive - AI Crypto Trading Platform';
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="animate-fade-in">
+      <Navigation />
+      <HeroSection />
+      <FeaturedSection />
+      <FeaturesSection />
+      <HowItWorksSection />
+      <TestimonialsSection />
+      <MissionSection />
+      <PricingSection />
+      <FaqSection />
+      <Footer />
     </div>
   );
 };
