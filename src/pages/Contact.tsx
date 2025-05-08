@@ -141,7 +141,7 @@ const Contact: React.FC = () => {
                     value={formData.subject}
                     onChange={handleChange}
                     required
-                    className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50 placeholder-black"
+                    className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50 custom-select-placeholder-black"
                   >
                     <option value="">Select a subject</option>
                     <option value="general">General Inquiry</option>
