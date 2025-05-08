@@ -30,7 +30,7 @@ const features = [
 
 export const FeaturesSection: React.FC = () => {
   return (
-    <section id="features" className="py-20 bg-gray-50">
+    <section id="features" className="py-20">
       <div className="container mx-auto px-4">
         <ScrollReveal>
           <SectionHeading
