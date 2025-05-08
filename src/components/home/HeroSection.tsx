@@ -11,7 +11,7 @@ export const HeroSection: React.FC = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl mb-6">
             AI-Powered Crypto Trading on <span className="text-gold">Autopilot</span>
           </h1>
-          <p className="text-xl opacity-80 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl opacity-80 mb-8 max-w-2x2 mx-auto">
             CoinHive leverages advanced AI algorithms to automate your cryptocurrency trading, 
             maximizing profits while you focus on what matters most.
           </p>
