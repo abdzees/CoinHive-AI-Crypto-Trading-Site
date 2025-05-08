@@ -7,28 +7,28 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const testimonials = [
   {
-    name: "David Chen",
+    name: "Abdullah Zeeshan",
     position: "Early Investor",
     quote: "CoinHive has transformed my trading strategy completely. The AI predictions are startlingly accurate, and I've seen a 43% increase in my portfolio within just the first month.",
     result: "+43% in 30 days",
     avatar: "/placeholder.svg",
   },
   {
-    name: "Sarah Johnson",
+    name: "Abdullah Zeeshan",
     position: "Day Trader",
     quote: "After years of manual trading, switching to CoinHive was like night and day. The automation handles all the tedious work while I focus on strategy. My stress levels are down and my profits are up.",
     result: "+62% quarterly return",
     avatar: "/placeholder.svg",
   },
   {
-    name: "Michael Rodriguez",
+    name: "Abdullah Zeeshan",
     position: "Crypto Enthusiast",
     quote: "The pattern recognition of CoinHive's AI is remarkable. It caught market trends I would have completely missed. My portfolio has doubled since I started using it six months ago.",
     result: "2x portfolio growth in 6 months",
     avatar: "/placeholder.svg",
   },
   {
-    name: "Jennifer Wu",
+    name: "Abdullah Zeeshan",
     position: "Investment Advisor",
     quote: "I recommend CoinHive to all my clients looking to enter the crypto space. The risk management features alone are worth the investment, but the returns speak for themselves.",
     result: "+28% consistent monthly growth",
@@ -114,7 +114,7 @@ export const TestimonialsSection: React.FC = () => {
           <div className="flex justify-center mt-8 gap-2">
             <button 
               onClick={handlePrev}
-              className="p-2 rounded-full border border-gray-200 hover:border-gold transition-colors"
+              className="p-2 rounded-full border border-border hover:border-gold transition-colors"
               aria-label="Previous testimonial"
             >
               <ChevronLeft size={20} />
@@ -134,7 +134,7 @@ export const TestimonialsSection: React.FC = () => {
             ))}
             <button 
               onClick={handleNext}
-              className="p-2 rounded-full border border-gray-200 hover:border-gold transition-colors"
+              className="p-2 rounded-full border border-border hover:border-gold transition-colors"
               aria-label="Next testimonial"
             >
               <ChevronRight size={20} />

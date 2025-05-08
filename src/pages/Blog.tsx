@@ -11,7 +11,7 @@ const blogPosts = [
     title: "The Future of AI in Cryptocurrency Trading",
     excerpt: "How artificial intelligence is revolutionizing the way we trade digital assets and what to expect in the coming years.",
     date: "May 2, 2025",
-    author: "Sarah Johnson",
+    author: "Abdullah Zeeshan",
     image: "/placeholder.svg",
     category: "Technology",
   },
@@ -20,7 +20,7 @@ const blogPosts = [
     title: "Understanding Market Sentiment Analysis for Crypto Traders",
     excerpt: "Dive into how natural language processing algorithms can interpret social media and news to predict market movements.",
     date: "April 28, 2025",
-    author: "Michael Chen",
+    author: "Abdullah Zeeshan",
     image: "/placeholder.svg",
     category: "Trading",
   },
@@ -29,7 +29,7 @@ const blogPosts = [
     title: "5 Risk Management Strategies Every Crypto Trader Should Know",
     excerpt: "Protect your investments with these proven risk management techniques specifically designed for cryptocurrency markets.",
     date: "April 15, 2025",
-    author: "David Rodriguez",
+    author: "Abdullah Zeeshan",
     image: "/placeholder.svg",
     category: "Strategy",
   },
@@ -38,7 +38,7 @@ const blogPosts = [
     title: "How CoinHive's AI Predicted the Recent Bitcoin Rally",
     excerpt: "A case study on how our algorithms detected early signals of Bitcoin's price surge weeks before traditional analysts.",
     date: "April 3, 2025",
-    author: "Emily Zhang",
+    author: "Abdullah Zeeshan",
     image: "/placeholder.svg",
     category: "Case Study",
   },
@@ -98,7 +98,7 @@ const Blog: React.FC = () => {
       </section>
       
       {/* All Posts */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-secondary/20">
         <div className="container mx-auto px-4">
           <ScrollReveal className="mb-10">
             <h2 className="text-3xl md:text-4xl">Latest Articles</h2>
@@ -108,7 +108,7 @@ const Blog: React.FC = () => {
             {blogPosts.slice(1).map((post, index) => (
               <ScrollReveal key={post.id} delay={index * 100}>
                 <Link to={`/blog/${post.id}`} className="block group">
-                  <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                  <div className="bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                     <div className="overflow-hidden">
                       <img
                         src={post.image}
@@ -147,7 +147,7 @@ const Blog: React.FC = () => {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-grow p-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold/50"
+                className="flex-grow p-3 border border-border bg-card rounded-lg focus:outline-none focus:ring-2 focus:ring-gold/50"
               />
               <button type="submit" className="neumorphic-button whitespace-nowrap">
                 Subscribe

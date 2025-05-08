@@ -39,11 +39,12 @@ const blogPosts = [
       <p>The future of AI in cryptocurrency trading isn't just about automation—it's about augmentation. By combining the computational power of artificial intelligence with human intuition and creativity, traders can achieve results that neither could accomplish alone. As this technology continues to evolve, platforms like CoinHive will play a crucial role in democratizing access to these powerful tools, leveling the playing field between institutional and individual traders.</p>
     `,
     date: "May 2, 2025",
-    author: "Sarah Johnson",
+    author: "Abdullah Zeeshan",
     authorTitle: "Chief AI Officer",
     authorImage: "/placeholder.svg",
     image: "/placeholder.svg",
     category: "Technology",
+    excerpt: "How artificial intelligence is revolutionizing the way we trade digital assets and what to expect in the coming years.",
   },
   {
     id: 2,
@@ -96,11 +97,12 @@ const blogPosts = [
       <p>At CoinHive, we continue to refine our sentiment analysis capabilities, ensuring our users have access to the most accurate and timely sentiment data available in the cryptocurrency space. As this technology evolves, we expect sentiment analysis to become an increasingly essential component of successful trading strategies.</p>
     `,
     date: "April 28, 2025",
-    author: "Michael Chen",
+    author: "Abdullah Zeeshan",
     authorTitle: "Data Science Lead",
     authorImage: "/placeholder.svg",
     image: "/placeholder.svg",
     category: "Trading",
+    excerpt: "Dive into how natural language processing algorithms can interpret social media and news to predict market movements.",
   },
   {
     id: 3,
@@ -160,11 +162,12 @@ const blogPosts = [
       <p>Remember, successful trading isn't just about maximizing returns—it's about maximizing risk-adjusted returns over the long term. By prioritizing risk management, you position yourself to be among the minority of traders who achieve sustainable success in cryptocurrency markets.</p>
     `,
     date: "April 15, 2025",
-    author: "David Rodriguez",
+    author: "Abdullah Zeeshan",
     authorTitle: "Risk Management Specialist",
     authorImage: "/placeholder.svg",
     image: "/placeholder.svg",
     category: "Strategy",
+    excerpt: "Protect your investments with these proven risk management techniques specifically designed for cryptocurrency markets.",
   },
   {
     id: 4,
@@ -235,11 +238,12 @@ const blogPosts = [
       <p>As we continue to refine our models and expand our data sources, we remain committed to providing our users with the most sophisticated AI trading assistant in the cryptocurrency space.</p>
     `,
     date: "April 3, 2025",
-    author: "Emily Zhang",
+    author: "Abdullah Zeeshan",
     authorTitle: "Lead Market Analyst",
     authorImage: "/placeholder.svg",
     image: "/placeholder.svg",
     category: "Case Study",
+    excerpt: "A case study on how our algorithms detected early signals of Bitcoin's price surge weeks before traditional analysts.",
   },
 ];
 
@@ -298,11 +302,11 @@ export const BlogPost: React.FC = () => {
           
           <ScrollReveal delay={200} className="max-w-3xl mx-auto">
             <div 
-              className="prose prose-lg max-w-none"
+              className="prose prose-lg max-w-none prose-headings:text-foreground prose-p:text-foreground/80 prose-a:text-gold prose-strong:text-foreground"
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
             
-            <div className="mt-16 pt-8 border-t">
+            <div className="mt-16 pt-8 border-t border-border">
               <div className="flex items-center gap-4">
                 <div className="w-16 h-16 rounded-full overflow-hidden">
                   <img 
@@ -321,7 +325,7 @@ export const BlogPost: React.FC = () => {
         </div>
       </article>
       
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-secondary/20">
         <div className="container mx-auto px-4">
           <ScrollReveal className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl">Related Articles</h2>
@@ -334,7 +338,7 @@ export const BlogPost: React.FC = () => {
               .map((relatedPost, index) => (
                 <ScrollReveal key={relatedPost.id} delay={index * 100}>
                   <Link to={`/blog/${relatedPost.id}`} className="block group">
-                    <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                    <div className="bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
                       <div className="overflow-hidden">
                         <img
                           src={relatedPost.image}
