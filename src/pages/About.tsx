@@ -123,8 +123,8 @@ const About: React.FC = () => {
                     />
                   </div>
                   <h3 className="text-xl mb-1">Abdullah Zeeshan</h3>
-                  <p className="opacity-70 mb-3">CEO & Co-founder</p>
-                  <p className="text-sm opacity-80">
+                  <p className="opacity-70 mb-3 mx-auto text-center">CEO & Co-founder</p>
+                  <p className="text-sm opacity-80 mx-auto text-center">
                     Former AI Research Lead at Google with 10+ years in cryptocurrency markets.
                   </p>
                 </div>
