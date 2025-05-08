@@ -36,9 +36,9 @@ export const Footer: React.FC = () => {
             <h3 className="text-lg font-medium mb-4 text-left">Connect With Us</h3>
             <p className="mb-4">Stay updated with our latest news and updates.</p>
             <div className="flex justify-center md:justify-start space-x-4">
-              <a href="#" className="hover:text-gold transition-colors">Twitter</a>
-              <a href="#" className="hover:text-gold transition-colors">LinkedIn</a>
-              <a href="#" className="hover:text-gold transition-colors">Discord</a>
+              <a href="https://www.linkedin.com/in/abdullah-zeeshan-6386ba186/" className="hover:text-gold transition-colors">Twitter</a>
+              <a href="https://www.linkedin.com/in/abdullah-zeeshan-6386ba186/" className="hover:text-gold transition-colors">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/abdullah-zeeshan-6386ba186/" className="hover:text-gold transition-colors">Discord</a>
             </div>
           </div>
         </div>
