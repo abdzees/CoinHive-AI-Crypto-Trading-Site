@@ -14,8 +14,8 @@ const logos = [
 export const FeaturedSection: React.FC = () => {
   return (
     <section className="py-20">
-      <div className="container mx-auto px-4">
-        <ScrollReveal className="text-center mb-10 mx-auto text-center">
+      <div className="container mx-auto px-4 mx-auto text-center">
+        <ScrollReveal className="text-center mb-10 ">
           <h3 className="text-lg opacity-70 uppercase tracking-wider">Featured In</h3>
         </ScrollReveal>
         
