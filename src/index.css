@@ -98,7 +98,7 @@
     opacity: 1; /* Ensure the placeholder isn't faded by default */
   }
 
-  .custom-select-placeholder-black option:first-child {
+  .custom-select-placeholder-black option::after {
     color: #0f0f0f !important;
   }
 }
