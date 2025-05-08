@@ -17,6 +17,7 @@ export const SectionHeading: React.FC<SectionHeadingProps> = ({
   return (
     <div className={cn(
       'mb-12',
+      centered && 'text-center',
       className
     )}>
       <h2 className={cn(
