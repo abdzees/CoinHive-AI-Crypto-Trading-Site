@@ -106,9 +106,9 @@ const About: React.FC = () => {
         <div className="container mx-auto px-4">
           <ScrollReveal className="text-center max-w-2xl mx-auto mb-12">
             <h2 className="text-3xl md:text-4xl mb-4">Meet Our Leadership</h2>
-            <p className="opacity-80">
+            {/* <p className="opacity-80">
               A diverse team of experts passionate about AI, cryptocurrency, and financial inclusion.
-            </p>
+            </p> */}
           </ScrollReveal>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -122,7 +122,7 @@ const About: React.FC = () => {
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <h3 className="text-xl mb-1">John Doe</h3>
+                  <h3 className="text-xl mb-1">Abdullah Zeeshan</h3>
                   <p className="opacity-70 mb-3">CEO & Co-founder</p>
                   <p className="text-sm opacity-80">
                     Former AI Research Lead at Google with 10+ years in cryptocurrency markets.
