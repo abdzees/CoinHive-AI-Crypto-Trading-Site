@@ -44,8 +44,7 @@ This demo is front-end focused and does not execute real trades. You are free to
 
 ## 📸 Preview
 
-![CoinHive Demo Screenshot](./screenshot.png)  
-*(Insert a screenshot of your demo landing page)*
+![CoinHive Demo Screenshot](./CoinHive.png)  
 
 ---
 
