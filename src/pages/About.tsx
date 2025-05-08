@@ -112,7 +112,7 @@ const About: React.FC = () => {
                     <img alt={`Team member ${index + 1}`} src="/lovable-uploads/3b75dec7-60c5-4652-b4ff-61c499625e0c.png" className="w-full h-full object-contain" />
                   </div>
                   <h3 className="text-xl mb-1">Abdullah Zeeshan</h3>
-                  <p className="opacity-70 mb-3 mx-auto text-center">CEO & Co-founder</p>
+                  <p className="opacity-70 mb-3 mx-auto text-center">CEO & Founder</p>
                   
                 </div>
               </ScrollReveal>)}
