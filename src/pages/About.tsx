@@ -112,7 +112,7 @@ const About: React.FC = () => {
           </ScrollReveal>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[1, 2, 3, 4].map((_, index) => (
+            {[1].map((_, index) => (
               <ScrollReveal key={index} delay={index * 100}>
                 <div className="text-center">
                   <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4 bg-gray-200">
