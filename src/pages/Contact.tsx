@@ -1,60 +1,57 @@
-
 import React, { useState, useEffect } from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import ScrollReveal from '@/components/ScrollReveal';
 import { useToast } from '@/hooks/use-toast';
-
 const Contact: React.FC = () => {
-  const { toast } = useToast();
+  const {
+    toast
+  } = useToast();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     subject: '',
-    message: '',
+    message: ''
   });
-  
   const [isSubmitting, setIsSubmitting] = useState(false);
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({
+    const {
+      name,
+      value
+    } = e.target;
+    setFormData(prev => ({
       ...prev,
-      [name]: value,
+      [name]: value
     }));
   };
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
       toast({
         title: "Message Sent",
-        description: "We've received your message and will respond shortly.",
+        description: "We've received your message and will respond shortly."
       });
       setFormData({
         name: '',
         email: '',
         subject: '',
-        message: '',
+        message: ''
       });
     }, 1500);
   };
-
-  return (
-    <div className="animate-fade-in">
+  return <div className="animate-fade-in">
       <Navigation />
       
       {/* Hero Section */}
       <section className="pt-32 pb-20">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 my-[20px]">
           <ScrollReveal className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl mb-6">Contact Us</h1>
             <p className="text-xl opacity-80 mx-auto text-center">
@@ -103,46 +100,21 @@ const Contact: React.FC = () => {
                   <label htmlFor="name" className="block mb-2">
                     Your Name
                   </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    required
-                    className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50 placeholder-black"
-                    placeholder="John Doe"
-                  />
+                  <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50 placeholder-black" placeholder="John Doe" />
                 </div>
                 
                 <div className="mb-6">
                   <label htmlFor="email" className="block mb-2">
                     Email Address
                   </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                    className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50 placeholder-black"
-                    placeholder="john@example.com"
-                  />
+                  <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50 placeholder-black" placeholder="john@example.com" />
                 </div>
                 
                 <div className="mb-6">
                   <label htmlFor="subject" className="block mb-2">
                     Subject
                   </label>
-                  <select
-                    id="subject"
-                    name="subject"
-                    value={formData.subject}
-                    onChange={handleChange}
-                    required
-                    className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50 custom-select-placeholder-black"
-                  >
+                  <select id="subject" name="subject" value={formData.subject} onChange={handleChange} required className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50 custom-select-placeholder-black">
                     <option value="">Select a subject</option>
                     <option value="general">General Inquiry</option>
                     <option value="support">Technical Support</option>
@@ -155,23 +127,10 @@ const Contact: React.FC = () => {
                   <label htmlFor="message" className="block mb-2">
                     Message
                   </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                    rows={5}
-                    className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50 placeholder-black"
-                    placeholder="How can we help you?"
-                  ></textarea>
+                  <textarea id="message" name="message" value={formData.message} onChange={handleChange} required rows={5} className="w-full p-3 border border-gray-200 rounded-lg bg-white/50 focus:outline-none focus:ring-2 focus:ring-gold/50 placeholder-black" placeholder="How can we help you?"></textarea>
                 </div>
                 
-                <button
-                  type="submit"
-                  disabled={isSubmitting}
-                  className="neumorphic-button w-full"
-                >
+                <button type="submit" disabled={isSubmitting} className="neumorphic-button w-full">
                   {isSubmitting ? 'Sending...' : 'Send Message'}
                 </button>
               </form>
@@ -199,8 +158,6 @@ const Contact: React.FC = () => {
       </section>
       
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Contact;
