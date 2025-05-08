@@ -1,4 +1,4 @@
-# 🚀 CoinHive – AI-Powered Crypto Trading Demo
+#  CoinHive – AI-Powered Crypto Trading Demo
 
 **CoinHive** is a conceptual demo showcasing an AI-driven crypto trading platform. Built to demonstrate how artificial intelligence can automate and optimize cryptocurrency trading, CoinHive combines sleek UI with imagined backend logic to present a compelling vision of the future of fintech.
 
@@ -6,13 +6,13 @@
 
 ---
 
-## 🧠 What Is CoinHive?
+##  What Is CoinHive?
 
 **CoinHive** leverages cutting-edge AI models to analyze market trends, execute trades, and optimize portfolios — automatically. The demo is designed to simulate a powerful, user-friendly dashboard that crypto traders could use to stay ahead of the market.
 
 ---
 
-## ✨ Features
+##  Features
 
 - 📈 **AI Trading Dashboard** – Simulated real-time portfolio value, performance tracking, and market insights.
 - 🤖 **Advanced AI Predictions** – Demo predictions powered by mocked machine learning outputs.
@@ -32,32 +32,24 @@
 
 ---
 
-## 🧪 Tech Stack
+##  Tech Stack
 
 This demo is front-end focused and does not execute real trades. You are free to customize it or connect real APIs for experimentation.
 
-- **Frontend**: HTML, CSS, JavaScript (React suggested for production)
+- **Frontend**: HTML, CSS, JavaScript (React for production)
 - **Visualization**: Chart.js or Recharts
 - **Hosting**: GitHub Pages / Netlify 
 
 ---
 
-## 📸 Preview
+##  Preview
 
 ![CoinHive Demo Screenshot](./CoinHive.png)  
 
 ---
 
-## 💡 Vision
 
-> **"We believe everyone should have access to elite trading tools powered by AI — not just hedge funds and whales."**
-
-My goal with CoinHive is to explore how AI could democratize access to crypto markets, making intelligent trading available to anyone.
-
----
-
-
-## 📬 Contact
+##  Contact
 
 Have feedback or want to collaborate?
 
