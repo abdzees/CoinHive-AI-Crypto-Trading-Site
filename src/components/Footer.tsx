@@ -1,19 +1,12 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 export const Footer: React.FC = () => {
-  return (
-    <footer className="py-16">
+  return <footer className="py-16">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="text-center md:text-left">
             <Link to="/" className="inline-block">
-              <img 
-                src="/lovable-uploads/67ab30e7-9fcd-49a6-992c-10be2f0c89c4.png" 
-                alt="CoinHive Logo" 
-                className="h-8 mx-auto md:mx-0" 
-              />
+              <img alt="CoinHive Logo" className="h-8 mx-auto md:mx-0" src="/lovable-uploads/e34086cb-4578-4512-b757-9c3053d5eb63.png" />
             </Link>
             <p className="mt-4 text-center md:text-left">
               This site is a demo created for viewing purposes only. Not a real crypto trading platform.
@@ -23,7 +16,7 @@ export const Footer: React.FC = () => {
           <div className="text-center md:text-left">
             <h3 className="text-lg font-medium mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><Link to="/#home"className="hover:text-gold transition-colors">Home</Link></li>
+              <li><Link to="/#home" className="hover:text-gold transition-colors">Home</Link></li>
               <li><Link to="/#features" className="hover:text-gold transition-colors">Features</Link></li>
               <li><Link to="/#how-it-works" className="hover:text-gold transition-colors">How it Works</Link></li>
               <li><Link to="/#pricing" className="hover:text-gold transition-colors">Pricing</Link></li>
@@ -61,8 +54,6 @@ export const Footer: React.FC = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
