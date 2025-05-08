@@ -24,7 +24,7 @@ export const Footer: React.FC = () => {
           </div>
           
           <div className="text-center md:text-left rounded-none">
-            <h3 className="text-lg font-medium mb-4 md:text-center text-left">Pages</h3>
+            <h3 className="text-lg font-medium mb-4 text-center md:text-left">Pages</h3>
             <ul className="space-y-2">
               <li><Link to="/about" className="hover:text-gold transition-colors">About Us</Link></li>
               <li><Link to="/contact" className="hover:text-gold transition-colors">Contact</Link></li>
