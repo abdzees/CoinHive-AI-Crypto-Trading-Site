@@ -1,12 +1,9 @@
-
 import React from 'react';
 import ScrollReveal from '../ScrollReveal';
 import DashboardMockup from './DashboardMockup';
-
 export const HeroSection: React.FC = () => {
-  return (
-    <section id="home" className="pt-32 pb-20 overflow-hidden">
-      <div className="container mx-auto px-4">
+  return <section id="home" className="pt-32 pb-20 overflow-hidden">
+      <div className="container mx-auto px-4 my-[15px]">
         <ScrollReveal className="text-center max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl lg:text-6xl mb-6 mx-auto text-center">
             AI-Powered Crypto Trading on <span className="text-gold">Autopilot</span>
@@ -31,8 +28,6 @@ export const HeroSection: React.FC = () => {
           </div>
         </ScrollReveal>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;

@@ -1,10 +1,7 @@
-
 import React from 'react';
 import ScrollReveal from '../ScrollReveal';
-
 export const MissionSection: React.FC = () => {
-  return (
-    <section className="py-20">
+  return <section className="py-20 my-[10px]">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <ScrollReveal className="text-center">
@@ -19,8 +16,6 @@ export const MissionSection: React.FC = () => {
           </ScrollReveal>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default MissionSection;
