@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { cn } from '@/lib/utils';
 
@@ -18,11 +17,16 @@ export const SectionHeading: React.FC<SectionHeadingProps> = ({
   return (
     <div className={cn(
       'mb-12',
-      centered && 'text-center',
       className
     )}>
-      <h2 className="text-3xl md:text-4xl lg:text-5xl mb-4">{title}</h2>
-      <p className="text-lg md:text-xl opacity-70 max-w-2xl">
+      <h2 className={cn(
+        "text-3xl md:text-4xl lg:text-5xl mb-4",
+        centered && "text-center" // Center the title text
+      )}>{title}</h2>
+      <p className={cn(
+        "text-lg md:text-xl opacity-70 max-w-2xl",
+        centered && "text-center mx-auto" // Center the subtitle text and the paragraph block
+      )}>
         {subtitle}
       </p>
     </div>
